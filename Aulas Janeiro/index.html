@@ -14,22 +14,34 @@
         const anoNascimento = 2003;
 
         //nome = prompt("Qual seu nome?");
-        
-        studing = confirm("Esta estudando agora?");
-        console.log(studing);
 
-        if(studing){
-            alert("Parabéns!!!");
-        }else{
-            alert("Vamos estudar...");
+        //studing = confirm("Esta estudando agora?");
+        //console.log(studing);
+
+        //if(studing){
+        //  alert("Parabéns!!!");
+        //}else{
+        //  alert("Vamos estudar...");
+        //}
+
+        idade = prompt("Qual a sua idade?");
+
+        if (idade <= 12) {
+            alert("Vá brincar!!");
+        } else if (idade <= 18) {
+            alert("Parabéns! hora de tirar a carta");
+        } else if (idade <= 25) {
+            alert("Já não precisa morar com os pais");
+        } else {
+            alert("Nada de neto");
         }
 
-        document.write(nome + "<br>");
-        document.write(endereco + "<br>");
-        document.write(telefone + "<br>");
-        document.write(anoNascimento + "<br>");
-        console.log("Estou aqui...");
-        alert("Você chegou aqui...")
+        //document.write(nome + "<br>");
+        //document.write(endereco + "<br>");
+        //document.write(telefone + "<br>");
+        //document.write(anoNascimento + "<br>");
+        //console.log("Estou aqui...");
+        //alert("Você chegou aqui...")
     </script>
 </head>
 
